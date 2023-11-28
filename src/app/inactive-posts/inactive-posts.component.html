@@ -1,0 +1,8 @@
+<div>
+  <h2>Inactive Posts</h2>
+  <div *ngFor="let user of inactiveUsers">
+    <h4 class="bg-secondary">Post</h4>
+    <div class="fs-3">{{ user.title }}</div>
+    <div class="fs-5">{{ user.body }}</div>
+  </div>
+</div>
